@@ -1,0 +1,98 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+}
+
+body{
+    padding-top: 100px;
+}
+
+form{
+    padding-top: 5px;
+}
+
+.form-control{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.brand{
+    font-size: 1.5rem;
+    color: rgba(255,255,255,.55);
+    text-decoration: none;
+}
+
+.brand:hover {
+    color: rgba(255,255,255,.75);
+}
+
+.brand:visited{
+    color: rgba(255,255,255,.55);
+}
+
+.brand:active{
+    color: rgba(255,255,255,.75);
+}
+
+.text5{
+    font-weight: 700;
+}
+
+.container3{
+    min-height: 570px;
+    margin: 0% 35% 5% 35%;
+    
+}
+
+footer{
+    padding: 10px 0;
+    background-color: #101010;
+    color:#9d9d9d;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+@media (max-width: 767.98px) {
+    .brand{
+        font-size: 1.2rem;
+    }
+    
+    .navbar-toggler{
+        font-size: 0.8rem;
+    }
+
+    .nav-link{
+        font-size: 0.7rem;
+    }
+
+    .text3{
+        font-size: 0.7rem;
+    }
+
+    .text2{
+        font-size: 1rem;
+    }
+
+    .container3{
+        margin-left: 8%;
+        margin-right: 8%;
+        margin-bottom: 20%;
+    }
+
+    .text5{
+        font-size: 1.5rem;
+    }
+
+    .form_button{
+        font-size: 0.8rem;
+    }
+
+    
+}

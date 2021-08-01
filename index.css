@@ -1,0 +1,105 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+}
+
+body{
+    padding-bottom: 100px;
+}
+
+.brand{
+    font-size: 1.5rem;
+    color: rgba(255,255,255,.55);
+    text-decoration: none;
+}
+
+.brand:hover {
+    color: rgba(255,255,255,.75);
+}
+
+.brand:visited{
+    color: rgba(255,255,255,.55);
+}
+
+.brand:active{
+    color: rgba(255,255,255,.75);
+}
+
+.caption{
+    color: #101010;
+    padding-top: 15px;
+}
+
+.decor{
+    text-decoration: none;
+}
+
+.decor:hover{
+    text-decoration: underline;
+}
+
+#banner_image{
+    padding-top: 75px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(img/intro-bg_1.jpg) no-repeat center center;
+    background-size: cover;
+    height: 100%;
+}
+
+#banner_content{
+    position: relative;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    margin: auto;
+    margin-top: 23vh;
+    margin-bottom: 25vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 660px;
+}
+
+
+#item_list{
+    padding-top: 6%;
+}
+
+footer{
+    padding: 10px 0;
+    background-color: #101010;
+    color:#9d9d9d;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.text5{
+    font-size: 1.5vw;
+}
+
+@media (max-width: 767.98px) {
+    .brand{
+        font-size: 1.2rem;
+    }
+    
+    .navbar-toggler{
+        font-size: 0.8rem;
+    }
+
+    .nav-link{
+        font-size: 0.7rem;
+    }
+
+   .text4{
+    font-size: 3vw;
+   }
+
+   .text3{
+       font-size: 0.7rem;
+   }
+}

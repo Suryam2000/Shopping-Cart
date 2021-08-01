@@ -1,0 +1,84 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+}
+
+
+.brand{
+    font-size: 1.5rem;
+    color: rgba(255,255,255,.55);
+    text-decoration: none;
+}
+
+.brand:hover {
+    color: rgba(255,255,255,.75);
+}
+
+.brand:visited{
+    color: rgba(255,255,255,.55);
+}
+
+.brand:active{
+    color: rgba(255,255,255,.75);
+}
+
+.box{
+    min-height: 578px;
+}
+
+.container2{
+    margin-top: 10vh;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #c1c1c1;
+    border-radius: 6px;
+}
+
+.text1{
+    padding-top: 1%;
+}
+
+footer{
+    padding: 10px 0;
+    background-color: #101010;
+    color:#9d9d9d;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 767.98px) {
+    .brand{
+        font-size: 1.2rem;
+    }
+    
+    .navbar-toggler{
+        font-size: 0.8rem;
+    }
+
+    .nav-link{
+        font-size: 0.7rem;
+    }
+
+    .text3{
+        font-size: 0.7rem;
+    }
+
+    .text2{
+        font-size: 1.4rem;
+        padding-top: 7%;
+    }
+
+    .text1{
+        font-size: 1.1rem;
+        padding-bottom: 3%;
+    }
+
+    .container2{
+        width: 85%;
+    }
+}
